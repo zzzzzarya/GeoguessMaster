@@ -1,7 +1,7 @@
 {
-  "name": "GeoguessMaster",
-  "short_name": "GeoguessMaster",
-  "description": "Free geoguess game",
+  "name": "Moroccangeoguessr",
+  "short_name": "Geoguessr",
+  "description": "think like a Moroccan",
   "icons": [
     {
       "src": "images/android-chrome-192x192.png",
