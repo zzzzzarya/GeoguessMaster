@@ -8,7 +8,7 @@
         :width="deviceState >= DEVICE_TYPES.TABLET_LANDSCAPE ? 60 : 44"
         :height="deviceState >= DEVICE_TYPES.TABLET_LANDSCAPE ? 60 : 44"
       >
-      <a href="https://github.com/spider-hand/GeoguessMaster">
+      <a href="https://github.com/zzzzzarya/GeoguessMaster/tree/master">
         <img
           src="@/assets/images/github.svg"
           :class="$style['page__github-ribbon']"
@@ -28,12 +28,12 @@
     />
     <div :class="$style['page__container']">
       <CreateGameFormComponent />
-      <span :class="$style['page__title']">Let's explore the world &#128526;</span>
+      <span :class="$style['page__title']">Think like a Moroccan! &#128526;</span>
     </div>
     <footer :class="$style['page__footer']">
       <span>
         All rights reserved. Copyright © {{ new Date().getFullYear() }}
-        <strong>GeoguessMaster</strong>
+        <strong>Moroccangeoguessr</strong>
       </span>
     </footer>
   </div>
