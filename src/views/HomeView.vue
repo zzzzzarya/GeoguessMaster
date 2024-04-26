@@ -28,7 +28,7 @@
     />
     <div :class="$style['page__container']">
       <CreateGameFormComponent />
-      <span :class="$style['page__title']">Think like a Moroccan! &#128526;</span>
+      <span :class="$style['page__title']">Think like a Moroccan!(Attal might be gay) &#128526;</span>
     </div>
     <footer :class="$style['page__footer']">
       <span>
