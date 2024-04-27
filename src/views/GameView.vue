@@ -397,7 +397,7 @@ const onCountdownFinished = () => {
 
 const onClickGuessButton = async (): Promise<void> => {
   try {
-    inGameState.value.score += Math.floor(5000 / distance.value) as number;
+    inGameState.value.score += distance.value as number;
     mapRef.value?.removeListener();
 
     if (gameSettingsState.value.selectedMode !== "multiplayer") {
